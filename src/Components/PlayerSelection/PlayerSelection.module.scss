@@ -1,0 +1,62 @@
+.PlayerSelection {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .left,
+  .right {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em;
+  }
+
+  .left {
+    input {
+      width: 100%;
+      text-align: center;
+      padding: 0.25em 0em;
+      margin-bottom: 0.25em;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      border-bottom: solid 5px rgba($color: #ffcc22, $alpha: 0.5);
+
+      color: white;
+      font-size: clamp(1.2rem, 2vw, 3rem);
+      font-family: "Architects Daughter", cursive;
+
+      &:focus {
+        &::placeholder {
+          opacity: 0;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  .right {
+    max-height: 250px;
+    overflow-y: auto;
+    text-align: center;
+
+    h1 {
+      font-size: clamp(1rem, 2vw, 3rem);
+      text-transform: capitalize;
+    }
+  }
+}
+
+@media (max-width: 1279px) {
+  .PlayerSelection {
+    flex-direction: column;
+  }
+}

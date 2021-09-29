@@ -1,0 +1,72 @@
+.menuItem {
+  font-size: clamp(1.6rem, 10vw, 5rem);
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+.menuItem span {
+  color: white;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.menuItem span:nth-of-type(1) {
+  -webkit-animation: flicker 4s infinite alternate;
+          animation: flicker 4s infinite alternate;
+  margin-right: 0.1em;
+}
+
+.menuItem:hover, .menuItem:active {
+  cursor: pointer;
+}
+
+.menuItem:hover span, .menuItem:active span {
+  text-shadow: 0 0 7px #d6d6d6, 0 0 10px #d6d6d6, 0 0 21px #d6d6d6, 0 0 42px #ffcc22, 0 0 82px #ffcc22, 0 0 92px #ffcc22, 0 0 102px #ffcc22, 0 0 151px #ffcc22;
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 7px #d6d6d6, 0 0 10px #d6d6d6, 0 0 21px #d6d6d6, 0 0 42px #ffcc22, 0 0 82px #ffcc22, 0 0 92px #ffcc22, 0 0 102px #ffcc22, 0 0 151px #ffcc22;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 7px #d6d6d6, 0 0 10px #d6d6d6, 0 0 21px #d6d6d6, 0 0 42px #ffcc22, 0 0 82px #ffcc22, 0 0 92px #ffcc22, 0 0 102px #ffcc22, 0 0 151px #ffcc22;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+@media (max-width: 1279px) {
+  .menuItem {
+    margin: 0.15em 0;
+  }
+  .menuItem span {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+/*# sourceMappingURL=MenuItem.module.css.map */

@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -16,14 +15,15 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 /*SCROLLBAR CSS*/
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 204, 34, 0.5) #202020;
+  scrollbar-color: rgba(#ffcc22, 0.5) #202020;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -37,8 +37,7 @@ code {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 204, 34, 0.5);
+  background-color: rgba(#ffcc22, 0.5);
   border-radius: 10px;
   border: 2px solid #202020;
 }
-/*# sourceMappingURL=Index.css.map */

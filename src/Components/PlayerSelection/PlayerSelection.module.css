@@ -1,0 +1,88 @@
+.PlayerSelection {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PlayerSelection .left,
+.PlayerSelection .right {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.PlayerSelection .left input {
+  width: 100%;
+  text-align: center;
+  padding: 0.25em 0em;
+  margin-bottom: 0.25em;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 5px rgba(255, 204, 34, 0.5);
+  color: white;
+  font-size: clamp(1.2rem, 2vw, 3rem);
+  font-family: "Architects Daughter", cursive;
+}
+
+.PlayerSelection .left input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  text-transform: capitalize;
+}
+
+.PlayerSelection .left input:focus:-ms-input-placeholder {
+  opacity: 0;
+  text-transform: capitalize;
+}
+
+.PlayerSelection .left input:focus::-ms-input-placeholder {
+  opacity: 0;
+  text-transform: capitalize;
+}
+
+.PlayerSelection .left input:focus::placeholder {
+  opacity: 0;
+  text-transform: capitalize;
+}
+
+.PlayerSelection .right {
+  max-height: 250px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.PlayerSelection .right h1 {
+  font-size: clamp(1rem, 2vw, 3rem);
+  text-transform: capitalize;
+}
+
+@media (max-width: 1279px) {
+  .PlayerSelection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=PlayerSelection.module.css.map */

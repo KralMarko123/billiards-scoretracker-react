@@ -1,0 +1,30 @@
+.Button {
+  padding: 0.25em;
+  margin: 0.25em;
+
+  background-color: rgba($color: #ffcc22, $alpha: 0.5);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+  width: 100%;
+  font-size: clamp(1rem, 1.4vw, 2rem);
+  font-family: "Architects Daughter", cursive;
+
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba($color: #ffcc22, $alpha: 0.65);
+  }
+}
+
+.disabled {
+  &:hover {
+    cursor: none;
+  }
+}
+
+.score-button {
+  font-size: clamp(1.2rem, 2vw, 3rem);
+}
