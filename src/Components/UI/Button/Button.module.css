@@ -4,7 +4,6 @@
   background-color: rgba(255, 204, 34, 0.5);
   color: white;
   border: none;
-  outline: none;
   border-radius: 10px;
   width: 100%;
   font-size: clamp(1rem, 1.2vw, 2rem);
@@ -19,18 +18,28 @@
   background-color: rgba(255, 204, 34, 0.65);
 }
 
-.disabled:hover {
-  cursor: none;
+.Button:focus-visible {
+  outline: 2px solid #ffcc22;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+          box-shadow: 0px 0px 10px #ccc;
 }
 
 .score-button {
   font-size: clamp(1.2rem, 1.8vw, 3rem);
-  max-width: 80px;
 }
 
 @media (max-width: 580px) {
   .scoreboard-menu-button {
     font-size: clamp(0.85rem, 0.85vw, 1rem);
+  }
+}
+
+@media (max-width: 1279px) {
+  .score-button {
+    max-width: 80px;
+  }
+  .Button:focus {
+    background-color: rgba(255, 204, 34, 0.5);
   }
 }
 /*# sourceMappingURL=Button.module.css.map */
