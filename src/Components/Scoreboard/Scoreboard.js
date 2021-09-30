@@ -30,8 +30,16 @@ const Scoreboard = () => {
           <span>{gameMode}</span>
           <span>Ball</span>
         </div>
-        <Button title="Back To Main Menu" buttonAction={backToMenuHandler} />
-        <Button title="Reset Scores" buttonAction={resetScoresHandler} />
+        <Button
+          title=""
+          buttonAction={backToMenuHandler}
+          scoreboardMenuButton="1"
+        />
+        <Button
+          title=""
+          buttonAction={resetScoresHandler}
+          scoreboardMenuButton="2"
+        />
       </div>
       <div className={classes.right}>
         <table className={classes["scoreboard-table"]}>

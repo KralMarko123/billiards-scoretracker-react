@@ -7,8 +7,9 @@
   outline: none;
   border-radius: 10px;
   width: 100%;
-  font-size: clamp(1rem, 1.4vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 2rem);
   font-family: "Architects Daughter", cursive;
+  text-transform: capitalize;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
@@ -23,6 +24,13 @@
 }
 
 .score-button {
-  font-size: clamp(1.2rem, 2vw, 3rem);
+  font-size: clamp(1.2rem, 1.8vw, 3rem);
+  max-width: 80px;
+}
+
+@media (max-width: 580px) {
+  .scoreboard-menu-button {
+    font-size: clamp(0.85rem, 0.85vw, 1rem);
+  }
 }
 /*# sourceMappingURL=Button.module.css.map */

@@ -188,5 +188,37 @@
     height: 100%;
     max-height: 250px;
   }
+  @-webkit-keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+      text-shadow: 0 0 8px #d6d6d6, 0 0 12px #d6d6d6, 0 0 22px #d6d6d6, 0 0 21px #ffcc22, 0 0 41px #ffcc22, 0 0 51px #ffcc22, 0 0 61px #ffcc22, 0 0 81px #ffcc22;
+    }
+    20%,
+    24%,
+    55% {
+      text-shadow: none;
+    }
+  }
+  @keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+      text-shadow: 0 0 8px #d6d6d6, 0 0 12px #d6d6d6, 0 0 22px #d6d6d6, 0 0 21px #ffcc22, 0 0 41px #ffcc22, 0 0 51px #ffcc22, 0 0 61px #ffcc22, 0 0 81px #ffcc22;
+    }
+    20%,
+    24%,
+    55% {
+      text-shadow: none;
+    }
+  }
 }
 /*# sourceMappingURL=Scoreboard.module.css.map */
