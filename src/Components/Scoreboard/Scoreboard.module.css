@@ -70,10 +70,8 @@
 
 .Scoreboard .scoreboard-table {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin: 0.25em;
+  height: 100%;
+  margin: 0.15em;
   border-collapse: collapse;
 }
 
@@ -88,7 +86,7 @@
 .Scoreboard .scoreboard-table td,
 .Scoreboard .scoreboard-table th {
   border-left: 2px solid rgba(255, 204, 34, 0.5);
-  padding: 0.25em;
+  padding: 0.15em;
   text-align: center;
   width: 50%;
 }
@@ -119,7 +117,7 @@
 
 .Scoreboard .scoreboard-table .score-cell .score {
   font-size: clamp(1.6rem, 3vw, 3rem);
-  margin: 0 0.25em;
+  margin: 0 0.5em;
 }
 
 @-webkit-keyframes flicker {
@@ -187,6 +185,9 @@
   .Scoreboard .right {
     height: 100%;
     max-height: 250px;
+  }
+  .Scoreboard .scoreboard-table td {
+    font-size: clamp(1.8rem, 4vw, 3rem);
   }
   @-webkit-keyframes flicker {
     0%,
