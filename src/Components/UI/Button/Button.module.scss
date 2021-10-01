@@ -8,7 +8,7 @@
   border-radius: 10px;
 
   width: 100%;
-  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2rem);
   font-family: "Architects Daughter", cursive;
   text-transform: capitalize;
 
@@ -30,7 +30,7 @@
 
 @media (max-width: 580px) {
   .scoreboard-menu-button {
-    font-size: clamp(0.85rem, 0.85vw, 1rem);
+    font-size: clamp(1rem, 2vw, 2rem);
   }
 }
 

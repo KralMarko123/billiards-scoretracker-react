@@ -73,3 +73,9 @@
     }
   }
 }
+
+@media only screen and (max-device-width: 900px) and (orientation: landscape) {
+  .menuItem {
+    font-size: clamp(1.2rem, 5vw, 3rem);
+  }
+}

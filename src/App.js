@@ -17,8 +17,8 @@ const App = () => {
     <div className={classes.App}>
       {menuVisible ? <h1>Choose A Discipline.</h1> : null}
       {playerSelectionVisible ? <h1>Choose Players.</h1> : null}
-      {gameVisible ? <h1>Scoreboard.</h1> : null}
-      <Card>
+      {/* {gameVisible ? <h1>Scoreboard.</h1> : null} */}
+      <Card gameStarted={gameVisible}>
         {menuVisible ? <Menu /> : null}
         {playerSelectionVisible ? <PlayerSelection /> : null}
         {gameVisible ? <Scoreboard /> : null}

@@ -29,7 +29,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1em;
 }
 
 .PlayerSelection .left input {
@@ -42,7 +41,7 @@
   background-color: transparent;
   border-bottom: solid 5px rgba(255, 204, 34, 0.5);
   color: white;
-  font-size: clamp(1.2rem, 2vw, 3rem);
+  font-size: clamp(1.4rem, 2vw, 2rem);
   font-family: "Architects Daughter", cursive;
 }
 
@@ -67,7 +66,7 @@
 }
 
 .PlayerSelection .right {
-  max-height: 250px;
+  max-height: 320px;
   overflow-y: auto;
   text-align: center;
 }
