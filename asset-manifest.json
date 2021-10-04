@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/billiards-scoretracker-react/static/css/main.6b94ba2c.chunk.css",
-    "main.js": "/billiards-scoretracker-react/static/js/main.caa02d77.chunk.js",
-    "main.js.map": "/billiards-scoretracker-react/static/js/main.caa02d77.chunk.js.map",
-    "runtime-main.js": "/billiards-scoretracker-react/static/js/runtime-main.47bb611b.js",
-    "runtime-main.js.map": "/billiards-scoretracker-react/static/js/runtime-main.47bb611b.js.map",
-    "static/js/2.67bf052a.chunk.js": "/billiards-scoretracker-react/static/js/2.67bf052a.chunk.js",
-    "static/js/2.67bf052a.chunk.js.map": "/billiards-scoretracker-react/static/js/2.67bf052a.chunk.js.map",
-    "static/js/3.6de05e93.chunk.js": "/billiards-scoretracker-react/static/js/3.6de05e93.chunk.js",
-    "static/js/3.6de05e93.chunk.js.map": "/billiards-scoretracker-react/static/js/3.6de05e93.chunk.js.map",
+    "main.css": "/billiards-scoretracker-react/static/css/main.5d1f7a2d.chunk.css",
+    "main.js": "/billiards-scoretracker-react/static/js/main.87bcae40.chunk.js",
+    "main.js.map": "/billiards-scoretracker-react/static/js/main.87bcae40.chunk.js.map",
+    "runtime-main.js": "/billiards-scoretracker-react/static/js/runtime-main.429b8ef1.js",
+    "runtime-main.js.map": "/billiards-scoretracker-react/static/js/runtime-main.429b8ef1.js.map",
+    "static/js/2.9fcb33e2.chunk.js": "/billiards-scoretracker-react/static/js/2.9fcb33e2.chunk.js",
+    "static/js/2.9fcb33e2.chunk.js.map": "/billiards-scoretracker-react/static/js/2.9fcb33e2.chunk.js.map",
+    "static/js/3.5ba0f3f8.chunk.js": "/billiards-scoretracker-react/static/js/3.5ba0f3f8.chunk.js",
+    "static/js/3.5ba0f3f8.chunk.js.map": "/billiards-scoretracker-react/static/js/3.5ba0f3f8.chunk.js.map",
     "index.html": "/billiards-scoretracker-react/index.html",
-    "static/css/main.6b94ba2c.chunk.css.map": "/billiards-scoretracker-react/static/css/main.6b94ba2c.chunk.css.map",
-    "static/js/2.67bf052a.chunk.js.LICENSE.txt": "/billiards-scoretracker-react/static/js/2.67bf052a.chunk.js.LICENSE.txt",
+    "static/css/main.5d1f7a2d.chunk.css.map": "/billiards-scoretracker-react/static/css/main.5d1f7a2d.chunk.css.map",
+    "static/js/2.9fcb33e2.chunk.js.LICENSE.txt": "/billiards-scoretracker-react/static/js/2.9fcb33e2.chunk.js.LICENSE.txt",
     "static/media/App.module.css": "/billiards-scoretracker-react/static/media/tablet cover photo.20ccc999.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47bb611b.js",
-    "static/js/2.67bf052a.chunk.js",
-    "static/css/main.6b94ba2c.chunk.css",
-    "static/js/main.caa02d77.chunk.js"
+    "static/js/runtime-main.429b8ef1.js",
+    "static/js/2.9fcb33e2.chunk.js",
+    "static/css/main.5d1f7a2d.chunk.css",
+    "static/js/main.87bcae40.chunk.js"
   ]
 }
