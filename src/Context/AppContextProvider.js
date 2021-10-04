@@ -174,6 +174,7 @@ const AppContextProvider = (props) => {
       idToIncrease: id,
     });
   };
+
   /*VARIABLES*/
   const [appState, dispatchAction] = useReducer(appReducer, defaulAppState);
 

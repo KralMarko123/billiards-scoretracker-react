@@ -14,7 +14,7 @@ const App = () => {
   const gameVisible = appCtx.gameVisible;
 
   return (
-    <div className={classes.App}>
+    <div name="App" className={classes.App}>
       {menuVisible ? <h1>Choose A Discipline.</h1> : null}
       {playerSelectionVisible ? <h1>Choose Players.</h1> : null}
       {/* {gameVisible ? <h1>Scoreboard.</h1> : null} */}

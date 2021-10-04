@@ -1,0 +1,90 @@
+$colors: (#9400d3, #4b0082, #0000ff, #00ff00, #ffff00, #ff7f00, #ff0000);
+
+.left,
+.right {
+  position: absolute;
+  bottom: 0%;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+
+  z-index: 1;
+}
+
+.left {
+  left: 0%;
+}
+
+.right {
+  right: 0%;
+}
+
+$w: random(15);
+$l: random(
+  $limit: 30,
+);
+
+@for $i from 1 to 150 {
+  .left .confetti {
+    &:nth-of-type(#{$i}) {
+      position: absolute;
+      width: #{$w * 0.8}px;
+      height: #{$w * 1.4}px;
+      background-color: nth($colors, random(7));
+
+      top: 110%;
+      bottom: 0%;
+      left: 0%;
+
+      opacity: random() + 0.5;
+      transform: rotate(#{random() * 360}deg);
+
+      animation: popLeft-#{$i}
+        unquote(2 + random() + "s")
+        unquote(random() + "s");
+    }
+  }
+
+  .right .confetti {
+    &:nth-of-type(#{$i}) {
+      position: absolute;
+      width: #{$w * 0.8}px;
+      height: #{$w * 1.4}px;
+      background-color: nth($colors, random(7));
+
+      top: 110%;
+      bottom: 0%;
+      right: 0%;
+
+      opacity: random() + 0.5;
+      transform: rotate(#{random() * 360}deg);
+
+      animation: popRight-#{$i}
+        unquote(2 + random() + "s")
+        unquote(random() + "s");
+    }
+  }
+
+  .animateLeft {
+    animation: none !important;
+  }
+
+  .animateRight {
+    animation: none !important;
+  }
+
+  @keyframes popLeft-#{$i} {
+    100% {
+      top: -10%;
+      left: unquote($l + random(100) + "%");
+    }
+  }
+
+  @keyframes popRight-#{$i} {
+    100% {
+      top: -10%;
+      right: unquote($l + random(100) + "%");
+    }
+  }
+}
