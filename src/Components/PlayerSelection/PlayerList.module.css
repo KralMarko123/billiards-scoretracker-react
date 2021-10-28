@@ -5,6 +5,6 @@
 }
 
 .PlayerList h1 {
-  font-size: clamp(1rem, 2vw, 3rem);
+  font-size: clamp(1.6rem, 2vw, 3rem);
 }
 /*# sourceMappingURL=PlayerList.module.css.map */

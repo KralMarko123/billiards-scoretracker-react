@@ -48,7 +48,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: clamp(1.2rem, 8vw, 3rem);
+  font-size: clamp(1.6rem, 8vw, 3rem);
   font-family: "Dancing Script", cursive;
   font-weight: bold;
   text-align: center;
@@ -97,7 +97,7 @@
 }
 
 .Scoreboard .scoreboard-table td {
-  font-size: clamp(1.6rem, 3vw, 3rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   font-family: "Dancing Script", cursive;
   font-weight: bold;
 }
@@ -116,8 +116,8 @@
 }
 
 .Scoreboard .scoreboard-table .score-cell .score {
-  font-size: clamp(1.6rem, 3vw, 3rem);
-  margin: 0 0.5em;
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin: 0 0.25em;
 }
 
 @-webkit-keyframes flicker {
@@ -187,7 +187,7 @@
     max-height: 250px;
   }
   .Scoreboard .scoreboard-table td {
-    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-size: clamp(2rem, 4vw, 3rem);
   }
   @-webkit-keyframes flicker {
     0%,
