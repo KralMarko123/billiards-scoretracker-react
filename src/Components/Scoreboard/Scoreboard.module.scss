@@ -29,7 +29,7 @@
       justify-content: center;
       align-items: center;
 
-      font-size: clamp(1.2rem, 8vw, 3rem);
+      font-size: clamp(1.6rem, 8vw, 3rem);
       font-family: "Dancing Script", cursive;
       font-weight: bold;
       text-align: center;
@@ -78,7 +78,7 @@
     }
 
     td {
-      font-size: clamp(1.6rem, 3vw, 3rem);
+      font-size: clamp(2rem, 3vw, 3rem);
       font-family: "Dancing Script", cursive;
       font-weight: bold;
     }
@@ -90,8 +90,8 @@
       width: 100%;
 
       .score {
-        font-size: clamp(1.6rem, 3vw, 3rem);
-        margin: 0 0.5em;
+        font-size: clamp(2rem, 3vw, 3rem);
+        margin: 0 0.25em;
       }
     }
   }
@@ -144,7 +144,7 @@
     }
 
     .scoreboard-table td {
-      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-size: clamp(2rem, 4vw, 3rem);
     }
   }
 
